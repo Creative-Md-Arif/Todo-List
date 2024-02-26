@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.main{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input_box{
+  display: flex;
+  gap: 20px;
+  background-color: aliceblue;
+  width: 600px;
+  padding: 15px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+ .input_box input{
+    width: 450px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.list input {
+    padding: 0 215px 0 20px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+
+
+
+
+.input_box input::placeholder{
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.listbody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius:10px;
+  }
+
+  .list{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    border-radius:10px;
+    border: 2px solid red;
+    background-color: aliceblue;
+  }
+
+.input_box button,
+.list button{
+    border: none;
+    background: transparent;
+    border: 1px solid black;
+    width: 100px;
+   
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+  
+
+}
+
+.input_box button:hover ,
+.list button:hover{
+    border-color: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.list button{
+    width: 50px;
+    height: 40px;
+   
+}
+
+.list .deletelist{
+    
+    background-color: red;
+    color: white;
+
+}
+
+
+
+
+
+

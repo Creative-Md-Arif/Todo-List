@@ -1,0 +1,14 @@
+@media (max-width: 575.98px) { 
+
+    /* bnner section part start */
+
+    .banner-image img {
+        height: 339px;
+    }
+
+    .banner-shape {
+        top: 63px;
+        left: -11px;
+        right: -12px;
+    }
+     }
